@@ -1,56 +1,8 @@
 @media (max-width: 1470px) {
-	.hero__top-content {
-		padding-top: 30px;
-	}
-
-	.hero__main-content {
-		padding-top: 0;
-	}
-
-	.sponsors__reborn-link-img {
-		height: 90px;
-	}
-
-	.sponsors__nova-link-img {
-		height: 50px;
-	}
-
-	.info__desc {
-		margin-top: 40px;
-	}
+	
 }
 
 @media (max-width: 700px) {
-	.hero__wrapper {
-		display: flex;
-	}
-
-	.hero__top-content {
-		padding-top: 30px;
-	}
-
-	.top-content__info-link-location-name {
-		font-size: 24px;
-	}
-
-	.top-content__info-link-location-adress {
-		font-size: 14px;
-	}
-
-	.top-content__sponsors {
-		display: none;
-	}
-
-	.top-content__info-date-text {
-		font-size: 24px;
-	}
-
-	.hero__main-content {
-		display: none;
-	}
-
-	.main__content-mobile {
-		display: block;
-	}
+	
 
 } 
