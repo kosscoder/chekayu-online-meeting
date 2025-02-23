@@ -1,0 +1,21 @@
+body {
+	font-family: "Roboto", sans-serif;
+	/* font-family: "Exo 2", serif; */
+/* font-family: "Caveat", serif; */
+	color: #ffffff;	
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+:root {
+	--col-yellow: #e9ad2d;
+	--col-white: #ffffff;
+}
