@@ -154,3 +154,134 @@
 	grid-row: 1 / 3;
 }
 
+.hero__mobile {
+	display: none;
+}
+
+/* ------------ mobile 700 --------------- */
+
+.hero__mobile {
+	padding-top: 30px;
+	background-color: #3f4217;
+}
+
+.mobile__logo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.mobile__logo-img {
+	height: 70px;
+	object-fit: cover;
+}
+
+.mobile__logo-name {
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	color: var(--col-yellow);
+}
+
+.mobile__logo-text {
+	font-size: 14px;
+}
+
+.mobile__logo-text:nth-child(3) {
+	margin-bottom: 5px;
+}
+
+.mobile__image {
+	margin-top: 30px;
+}
+
+.mobile__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.mobile__content-title {
+	font-size: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--col-yellow);
+	margin-top: 30px;
+}
+
+.mobile__content-subtitle {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.mobile__content-link {
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: var(--col-white);
+	background-color: rgb(190, 7, 7);
+	padding: 10px 20px;
+	display: inline-block;
+	border-radius: 10px;
+	margin: 30px 0;
+}
+
+.mobile__content-desc {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 300;
+}
+
+.mobile__content-desc-about:nth-child(1n) {
+	margin-top: 7px;
+}
+
+.mobile__content-team {
+	margin-top: 30px;
+	font-size: 16px;
+	line-height: 18px;
+	color: var(--col-yellow);
+}
+
+.mobile__content-team-title {
+	font-weight: 600;
+}
+
+.mobile__content-team-member {
+	margin-top: 15px;
+	font-weight: 700;
+}
+
+.mobile__content-team-desc {
+	font-weight: 300;
+	color: var(--col-white);
+}
+
+.mobile__content-team-desc:nth-child(3),
+.mobile__content-team-desc:nth-child(5) {
+	margin-top: 10px;
+}
+
+.mobile__content-phone {
+	margin: 50px 0 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+}
+
+.mobile__content-phone-text {
+	text-transform: uppercase;
+	color: var(--col-yellow);
+}
+
+.mobile__content-phone-link {
+	display: inline-block;
+	color: var(--col-white);
+}
