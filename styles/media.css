@@ -3,6 +3,15 @@
 }
 
 @media (max-width: 700px) {
-	
+	.hero {
+		height: 100%;
+	}
 
+	.hero__wrapper {
+		display: none;
+	}
+
+	.hero__mobile {
+		display: block;
+	}
 } 
