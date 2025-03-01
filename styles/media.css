@@ -1,8 +1,33 @@
 @media (max-width: 1470px) {
+	.hero__wrapper {
+		grid-template-columns: 2fr 1fr;
+	}
+
+	.content-head__date-text {
+		font-size: 18px;
+	}
+
+	.content-head__logo {
+		height: 50px;
+	}
+
+	.content-head__logo-text-item {
+		font-size: 14px;
+	}
+
+	.content-head__logo-text-item:nth-child(3) {
+		font-size: 16px;
+	}
+
+	.content-main__desc-text {
+		font-size: 20px;
+		line-height: 26px;
+		font-weight: 300;
+	}
 	
 }
 
-@media (max-width: 700px) {
+@media (max-width: 780px) {
 	.hero {
 		height: 100%;
 	}
@@ -13,5 +38,15 @@
 
 	.hero__mobile {
 		display: block;
+	}
+
+	.mobile__image {
+		width: 100%;
+	}
+
+	.mobile__image-item {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
 	}
 } 
